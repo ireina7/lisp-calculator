@@ -1,6 +1,8 @@
 package inject
 
 import (
+	"context"
+
 	"github.com/ireina7/fgo/interfaces"
 	"github.com/ireina7/lisp-calculator/model"
 	"github.com/ireina7/lisp-calculator/service"
@@ -9,6 +11,7 @@ import (
 
 func Instances() {
 	summoner.Given[model.Version](model.Version("0.1.0"))
+	summoner.Given[context.Context](context.Background())
 	summoner.Given[service.Parser[model.LispExpr]](service.NewLispParser())
 	summoner.Given[interfaces.Logger](interfaces.NewPreludeLogger(nil))
 	summoner.Given[service.Evaluate[model.LispExpr, model.Integer]](service.NewEvaluator())

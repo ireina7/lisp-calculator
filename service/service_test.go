@@ -1,7 +1,6 @@
 package service_test
 
 import (
-	"context"
 	"testing"
 
 	"github.com/ireina7/lisp-calculator/inject"
@@ -12,9 +11,7 @@ import (
 func TestEval(t *testing.T) {
 	inject.Instances()
 
-	service := &service.Service{
-		Ctx: context.Background(),
-	}
+	service := &service.Service{}
 	err := summoner.Inject(service)
 	if err != nil {
 		panic(err)
