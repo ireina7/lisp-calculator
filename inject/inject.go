@@ -7,7 +7,7 @@ import (
 	"github.com/ireina7/summoner"
 )
 
-func Inject() {
+func Instances() {
 	summoner.Given[model.Version](model.Version("0.1.0"))
 	summoner.Given[service.Parser[model.LispExpr]](service.NewLispParser())
 	summoner.Given[interfaces.Logger](interfaces.NewPreludeLogger(nil))

@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	inject.Inject()
+	inject.Instances()
 
 	service := &service.Service{
 		Ctx: context.Background(),
