@@ -14,6 +14,10 @@ type lispParser struct {
 	interfaces.Logger
 }
 
+func NewLispParser() *lispParser {
+	return &lispParser{}
+}
+
 func (parser *lispParser) Parse(src string) result.Result[model.LispExpr] {
 
 	return result.FromErr[model.LispExpr](nil)

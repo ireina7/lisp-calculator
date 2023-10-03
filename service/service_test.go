@@ -28,6 +28,6 @@ func TestEval(t *testing.T) {
 			model.Integer(1),
 		},
 	}
-	ans := service.Evaluator.Eval(&expr)
+	ans := service.Eval(&expr)
 	t.Logf("ans: %#v", ans)
 }

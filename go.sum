@@ -12,6 +12,8 @@ github.com/ireina7/fgo v0.0.0-20231001130925-12253fe5711f h1:Jr2pfuRh/RYieP+NolX
 github.com/ireina7/fgo v0.0.0-20231001130925-12253fe5711f/go.mod h1:0PKSOJBNmY3jQ6BaxEEGZ5E/NWEVGBOO0gVvbC/CgM4=
 github.com/ireina7/fgo v0.0.0-20231001131356-d922d5437a11 h1:mrDnx3KXPJpcV7mnqz7UR2Ju+hQA21Fh6z2+3q1EkQk=
 github.com/ireina7/fgo v0.0.0-20231001131356-d922d5437a11/go.mod h1:0PKSOJBNmY3jQ6BaxEEGZ5E/NWEVGBOO0gVvbC/CgM4=
+github.com/ireina7/fgo v0.0.0-20231003064952-235233395e7c h1:dpNQVpq0+nPe2c5DYJJiFgdl1y9yTs+Jg2CaqQiBz/c=
+github.com/ireina7/fgo v0.0.0-20231003064952-235233395e7c/go.mod h1:0PKSOJBNmY3jQ6BaxEEGZ5E/NWEVGBOO0gVvbC/CgM4=
 github.com/ireina7/summoner v0.1.2-0.20230930095928-551b84a47918 h1:G9iXi2rLSbJaF86bKmuwR+tZE6jQg7SITgnMj3IrKVk=
 github.com/ireina7/summoner v0.1.2-0.20230930095928-551b84a47918/go.mod h1:a6Geq0khNUbrrzVqPCr055UbYx6hQzXXRs1dJaysBXc=
 github.com/samber/lo v1.38.1 h1:j2XEAqXKb09Am4ebOg31SpvzUTTs6EN3VfgeLUhPdXM=

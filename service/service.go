@@ -8,11 +8,11 @@ import (
 )
 
 type Service struct {
-	Ctx                    context.Context
-	model.Version          `summon:"type"`
-	interfaces.Logger      `summon:"type"`
-	Parser[model.LispExpr] `summon:"type"`
-	Evaluator
+	Ctx                                     context.Context
+	model.Version                           `summon:"type"`
+	interfaces.Logger                       `summon:"type"`
+	Parser[model.LispExpr]                  `summon:"type"`
+	Evaluate[model.LispExpr, model.Integer] `summon:"type"`
 }
 
 func (service *Service) Serve() error {

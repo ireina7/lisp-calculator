@@ -3,7 +3,7 @@ module github.com/ireina7/lisp-calculator
 go 1.20
 
 require (
-	github.com/ireina7/fgo v0.0.0-20231001131356-d922d5437a11
+	github.com/ireina7/fgo v0.0.0-20231003064952-235233395e7c
 	github.com/ireina7/summoner v0.1.2-0.20230930095928-551b84a47918
 )
 
